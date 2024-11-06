@@ -8,3 +8,10 @@ button.addEventListener("click", function() {
 })
 
 // Thumb Navigation Toggle
+
+const thumbButton = document.getElementById("thumb-nav-button");
+const thumbLinks = document.getElementById('thumb-nav-secondary');
+
+thumbButton.addEventListener('click', function() {
+    thumbLinks.classList.toggle('toggled');
+})
